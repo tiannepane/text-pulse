@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background: linear-gradient(rgb(175, 36, 213) 0%, black 0%) #000;
+    @apply text-white min-h-dvh;
+
+}
