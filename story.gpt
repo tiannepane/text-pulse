@@ -1,0 +1,13 @@
+tools: sys.write, sys.read, sys.download, sys.find
+tools: github.com/gptscript-ai/browser
+tools: github.com/gptscript-ai/image-generation
+tools: github.com/nw0rn/text2speech-gptscript
+args: url: Link to the article or page
+args: dir: Directory to save the created files to
+
+1. Open the webpage at ${url} and go through the content to understand its main points.
+2. Summarize the content into a concise text suitable for an Instagram reel or TikTok video, keeping it under 100 words and free of emojis.
+3. Divide the summarized text into three sections and save each section as a text file in the format: ${dir}/story-${INDEX}.txt.
+4. For each section of the text, think of a descriptive keyword or phrase to create a 1024x1792 b-roll image. Save these images as ${dir}/b-roll-${INDEX}.png.
+5. Convert each section of text into an audio file and save them as ${dir}/voiceover-${INDEX}, relying on the default file format.
+6. Perform speech-to-text conversion on all the .mp3 files in ${dir}, saving the transcription for each file in separate files located at ${dir}.
