@@ -7,7 +7,7 @@ function App() {
                     <h1 className="text-4xl font-bold mb-4">
 
             <span className="text-5xl">
-              finlearn: fast
+              textPulse: fast
             </span>
                         <br />
                         <span className="bg-gradient-to-br from-orange-600 to-yellow-400 bg-clip-text text-transparent">
